@@ -1,3 +1,4 @@
+// this code passed all test cases
 function timeConversion(s) {
   
     // check for PM time
@@ -36,7 +37,7 @@ function timeConversion(s) {
     s = parseInt(s);
     // handles the case where time is 12 or greater
     if (s >= 120000) {
-      console.log(s);
+      
       s = s.toString();
       s = s.replace("12", "00");
       // concatenates string
@@ -53,3 +54,7 @@ function timeConversion(s) {
     }
   }
 }
+
+timeConversion('07:05:45PM')
+timeConversion('11:59:59PM')
+timeConversion('12:00:00AM')
