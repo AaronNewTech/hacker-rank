@@ -1,3 +1,4 @@
+// this code passed all test cases
 function plusMinus(arr) {
     // values to store frequency of positive, negative and zero values in the array
     let plus = 0
